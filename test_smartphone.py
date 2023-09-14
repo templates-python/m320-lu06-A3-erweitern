@@ -7,10 +7,10 @@ class TestSmartPhone:
     def a_smartphone(self):
         return SmartPhone()
 
-    def test_what_i_am(self, a_smartphone):
+    def test_what_i_am_smartphone(self, a_smartphone):
         assert a_smartphone.what_i_am() == 'a modern smartphone'
 
-    def test_calling(self, a_smartphone, capsys):
+    def test_function_smartphone(self, a_smartphone, capsys):
         a_smartphone.calling()
         a_smartphone.handle_sms()
         a_smartphone.use_internet()
