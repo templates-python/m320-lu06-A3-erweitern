@@ -1,6 +1,7 @@
 import pytest
 from smartphone import SmartPhone
 
+
 class TestSmartPhone:
 
     @pytest.fixture
